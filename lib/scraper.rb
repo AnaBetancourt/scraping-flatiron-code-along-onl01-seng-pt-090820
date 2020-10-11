@@ -11,10 +11,10 @@ class Scraper
     binding.pry
   end
   
-  # def get_courses
-  #   page = Nokogiri::HTML(html)
-  #   page.css("")
-  # end
+  def get_courses
+    page = Nokogiri::HTML(html)
+    page.css("")
+  end
   
   # def make_courses
     
