@@ -12,7 +12,9 @@ class Scraper
       course = Course.new
       Course.title = doc.css(".post").first.css("h2").text
       Course.schedule = doc.css(".post").first.css(".date").text
-      Course.
+      Course.description = doc.css(".post").first.css("p").text
+    end
+    binding.pry
   end
   
   def get_courses
