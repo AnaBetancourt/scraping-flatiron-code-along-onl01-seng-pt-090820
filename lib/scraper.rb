@@ -21,7 +21,8 @@ class Scraper
   end
   
   def make_courses
-    
+    Course.all.each do |course|
+      
   end
   
   def print_courses
