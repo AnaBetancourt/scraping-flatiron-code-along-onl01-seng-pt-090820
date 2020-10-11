@@ -23,6 +23,7 @@ class Scraper
   def make_courses
     Course.all.each do |course|
       course = Course.new
+    end
   end
   
   def print_courses
